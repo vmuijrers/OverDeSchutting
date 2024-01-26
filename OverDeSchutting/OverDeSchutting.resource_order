@@ -23,5 +23,6 @@
     {"name":"obj_physic_object","order":2,"path":"objects/obj_physic_object/obj_physic_object.yy",},
     {"name":"obj_turd","order":3,"path":"objects/obj_turd/obj_turd.yy",},
     {"name":"obj_shitlayer","order":1,"path":"objects/obj_shitlayer/obj_shitlayer.yy",},
+    {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

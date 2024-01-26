@@ -41,6 +41,8 @@
     {"id":{"name":"obj_physic_object","path":"objects/obj_physic_object/obj_physic_object.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_turd","path":"objects/obj_turd/obj_turd.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
+    {"id":{"name":"scr_move","path":"scripts/scr_move/scr_move.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"scr_stain","path":"scripts/scr_stain/scr_stain.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},

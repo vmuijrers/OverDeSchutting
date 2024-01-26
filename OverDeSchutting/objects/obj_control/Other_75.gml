@@ -12,11 +12,17 @@ case "gamepad discovered":                     // A game pad has been discovered
     if !(instance_exists(player[pad]))         // Check to see if an instance is associated with this pad index
         {
         // Create a player object and assign it a pad number
-        player[pad] = instance_create_layer(64 + random(room_width - 128), 64 + random(room_height - 128), "Instances", obj_Player);
+        player[pad] = instance_create_layer(0,0, "Instances", obj_player);
         with (player[pad])
             {
             image_index = instance_number(object_index);
             pad_num = pad;
+			show_debug_message(pad_num);
+			minX = pad_num * global.screen_width + sprite_width / 2;
+			maxX = (pad_num + 1) * global.screen_width - sprite_width / 2;
+			minY = sprite_height;
+			x = (minX + maxX) / 2
+			y = global.screen_height / 2
             }
         }
     break;
