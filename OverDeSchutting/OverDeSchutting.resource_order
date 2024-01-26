@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_turd_stain","order":1,"path":"sprites/spr_turd_stain/spr_turd_stain.yy",},
+    {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

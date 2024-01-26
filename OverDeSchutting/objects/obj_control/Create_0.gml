@@ -1,16 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-var _maxpads = gamepad_get_device_count();
-
-for (var i = 0; i < _maxpads; i++)
+num_players = 4;
+global.screen_width = 1920;
+global.screen_height = 1080;
+window_set_size(global.screen_width * num_players, global.screen_height);
+window_set_position(-1920,0);
+for (var i = 0; i < 12; i++;)
 {
-    if (gamepad_is_connected(i))
-    {
-        // do stuff with pad "i"
-		
-		players[i] = instance_create_layer(960, 540, 0, obj_player);
-		players[i].
-    }
+	player[i] = noone;
 }
+
+
 
