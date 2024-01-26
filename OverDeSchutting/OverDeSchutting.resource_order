@@ -17,6 +17,6 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
+    {"name":"spr_turd_stain","order":1,"path":"sprites/spr_turd_stain/spr_turd_stain.yy",},
   ],
 }

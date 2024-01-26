@@ -34,6 +34,8 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_turd_stain","path":"sprites/spr_turd_stain/spr_turd_stain.yy",},},
+    {"id":{"name":"spr_turd_object","path":"sprites/spr_turd_object/spr_turd_object.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
