@@ -18,5 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_turd_stain","order":1,"path":"sprites/spr_turd_stain/spr_turd_stain.yy",},
+    {"name":"spr_turd_shadow","order":2,"path":"sprites/spr_turd_shadow/spr_turd_shadow.yy",},
+    {"name":"BobbiesROom","order":1,"path":"rooms/BobbiesROom/BobbiesROom.yy",},
+    {"name":"obj_physic_object","order":2,"path":"objects/obj_physic_object/obj_physic_object.yy",},
+    {"name":"obj_turd","order":3,"path":"objects/obj_turd/obj_turd.yy",},
+    {"name":"obj_shitlayer","order":1,"path":"objects/obj_shitlayer/obj_shitlayer.yy",},
   ],
 }

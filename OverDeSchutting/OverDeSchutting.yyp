@@ -36,13 +36,20 @@
   "resources": [
     {"id":{"name":"spr_turd_stain","path":"sprites/spr_turd_stain/spr_turd_stain.yy",},},
     {"id":{"name":"spr_turd_object","path":"sprites/spr_turd_object/spr_turd_object.yy",},},
+    {"id":{"name":"spr_turd_shadow","path":"sprites/spr_turd_shadow/spr_turd_shadow.yy",},},
+    {"id":{"name":"BobbiesROom","path":"rooms/BobbiesROom/BobbiesROom.yy",},},
+    {"id":{"name":"obj_physic_object","path":"objects/obj_physic_object/obj_physic_object.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_turd","path":"objects/obj_turd/obj_turd.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"scr_stain","path":"scripts/scr_stain/scr_stain.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_shitlayer","path":"objects/obj_shitlayer/obj_shitlayer.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"BobbiesROom","path":"rooms/BobbiesROom/BobbiesROom.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

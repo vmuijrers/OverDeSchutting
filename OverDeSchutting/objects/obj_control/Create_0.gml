@@ -10,7 +10,6 @@ for (var i = 0; i < _maxpads; i++)
         // do stuff with pad "i"
 		
 		players[i] = instance_create_layer(960, 540, 0, obj_player);
-		players[i].
     }
 }
 
