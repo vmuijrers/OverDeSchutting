@@ -5,7 +5,7 @@
 // Inherit the parent event
 event_inherited();
 
-shadow_sprite = spr_turd_shadow
+shadow_sprite = Blobshadow_Small
 
 sprite_fly = Vuilniszak_Gib_Fly
 sprite_floor = Vuilniszak_Gib_Floor

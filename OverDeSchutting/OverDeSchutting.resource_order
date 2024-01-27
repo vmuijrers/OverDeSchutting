@@ -16,6 +16,7 @@
     {"name":"BigTurd","order":9,"path":"folders/Sprites/Objects/Vuilnis/BigTurd.yy",},
     {"name":"Tuinspullen","order":7,"path":"folders/Sprites/Objects/Tuinspullen.yy",},
     {"name":"Tuinkabouter","order":2,"path":"folders/Sprites/Objects/Tuinspullen/Tuinkabouter.yy",},
+    {"name":"Shadows","order":4,"path":"folders/Sprites/Shadows.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_vuilniszak","order":3,"path":"objects/obj_vuilniszak/obj_vuilniszak.yy",},
@@ -72,6 +73,7 @@
     {"name":"Tuinkabouter_Grond","order":2,"path":"sprites/Tuinkabouter_Grond/Tuinkabouter_Grond.yy",},
     {"name":"obj_splatter","order":2,"path":"objects/obj_splatter/obj_splatter.yy",},
     {"name":"Joske_Run","order":1,"path":"sprites/Joske_Run/Joske_Run.yy",},
+    {"name":"Blobshadow_Small","order":1,"path":"sprites/Blobshadow_Small/Blobshadow_Small.yy",},
     {"name":"Blikje_A_Grond","order":2,"path":"sprites/Blikje_A_Grond/Blikje_A_Grond.yy",},
     {"name":"scr_clean","order":1,"path":"scripts/scr_clean/scr_clean.yy",},
     {"name":"Deadmau5_PickedUp","order":3,"path":"sprites/Deadmau5_PickedUp/Deadmau5_PickedUp.yy",},
