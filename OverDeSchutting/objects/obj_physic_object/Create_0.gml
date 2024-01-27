@@ -13,3 +13,5 @@ airfric = 0.025
 
 bouncyness = 0.7
 bouncecut = 2
+
+state = WEAPON_STATE.IDLE;

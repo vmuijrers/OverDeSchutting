@@ -7,6 +7,6 @@ function scr_move(_xdir, _ydir){
 	{
 		look_dir = _xdir > 0 ? 1 : -1;
 	}
-	y += _ydir * movespeed;
+	y += _ydir * movespeed*0.5;
 	y = clamp(y, minY, maxY);
 }

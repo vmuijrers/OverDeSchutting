@@ -14,6 +14,10 @@ if (gamepad_is_connected(pad_num))
 	
 	if(gamepad_button_check_pressed(pad_num, gp_face1))
 	{
+		scr_handle_pickup_button();		
+	}
+	if(gamepad_button_check_pressed(pad_num, gp_face2))
+	{
 		scr_handle_action_button();		
 	}
 	
@@ -22,6 +26,7 @@ if (gamepad_is_connected(pad_num))
 		current_pickup.x = x;
 		current_pickup.y = y - sprite_height;
 		current_pickup.look_dir = look_dir;
+		
 	}
 	
 }
