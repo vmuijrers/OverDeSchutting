@@ -26,4 +26,5 @@ else
 
 draw_circle(x,y, pickup_range, true)
 
-
+//draw_text(x,y -64, string(minX) + string(maxX))
+//draw_text(x,y -74, string(x) + string(y))

@@ -5,7 +5,7 @@ movespeed = 3;
 minX = 0;
 maxX = 1920;
 minY = 70;
-maxY = global.room_height;
+maxY = room_height;
 pickup_range = 60;
 look_dir = 1;
 

@@ -84,11 +84,11 @@ if(state = WEAPON_STATE.FLYING && (x > maxX || x < minX) && z < global.schutting
 y+=ySpd*0.5
 scr_periodic_bounderies();
 
-if(xSpd != 0 || ySpd !=0 || zSpd != 0)
+if(xSpd != 0 || ySpd != 0 || zSpd != 0)
 {
 	state = WEAPON_STATE.FLYING
 }
-else if(state!= WEAPON_STATE.PICKUP)
+else if(state != WEAPON_STATE.PICKUP)
 {
 	state = WEAPON_STATE.IDLE
 }

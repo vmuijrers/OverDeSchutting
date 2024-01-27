@@ -28,7 +28,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "Joost_Idle",
     "path": "sprites/Joost_Idle/Joost_Idle.yy",
