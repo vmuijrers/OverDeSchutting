@@ -1,21 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pickup_parent",
+  "name": "obj_big_turd",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":20,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickups",
-    "path": "folders/Objects/Pickups.yy",
+    "name": "Objects",
+    "path": "folders/Objects/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_splatter",
-    "path": "objects/obj_splatter/obj_splatter.yy",
+    "name": "obj_pickup_parent",
+    "path": "objects/obj_pickup_parent/obj_pickup_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -33,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_weapon",
-    "path": "sprites/spr_weapon/spr_weapon.yy",
+    "name": "BigTurd_Grond",
+    "path": "sprites/BigTurd_Grond/BigTurd_Grond.yy",
   },
   "spriteMaskId": null,
   "visible": true,

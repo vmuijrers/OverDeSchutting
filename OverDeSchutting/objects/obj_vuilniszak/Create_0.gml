@@ -16,4 +16,4 @@ sprite_picked_up = Vuilniszak_Fly_PickedUp
 bouncyness = 0.7
 bouncecut = 6
 
-hp = 4 + floor (random(9))
+hp = 999999
