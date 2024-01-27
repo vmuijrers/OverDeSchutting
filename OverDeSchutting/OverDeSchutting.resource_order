@@ -5,6 +5,7 @@
     {"name":"Players","order":2,"path":"folders/Sprites/Players.yy",},
     {"name":"Joost","order":1,"path":"folders/Sprites/Players/Joost.yy",},
     {"name":"Pickups","order":3,"path":"folders/Objects/Pickups.yy",},
+    {"name":"Vuilniszak","order":6,"path":"folders/Sprites/Objects/Vuilnis/Vuilniszak.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_vuilniszak","order":1,"path":"objects/obj_vuilniszak/obj_vuilniszak.yy",},
@@ -12,7 +13,9 @@
     {"name":"spr_shovel","order":3,"path":"sprites/spr_shovel/spr_shovel.yy",},
     {"name":"Joost_Run","order":3,"path":"sprites/Joost_Run/Joost_Run.yy",},
     {"name":"Turd_Grond","order":2,"path":"sprites/Turd_Grond/Turd_Grond.yy",},
+    {"name":"Vuilniszak_Fly_Down","order":3,"path":"sprites/Vuilniszak_Fly_Down/Vuilniszak_Fly_Down.yy",},
     {"name":"obj_weapon","order":2,"path":"objects/obj_weapon/obj_weapon.yy",},
+    {"name":"Vuilniszak_Fly_Up","order":2,"path":"sprites/Vuilniszak_Fly_Up/Vuilniszak_Fly_Up.yy",},
     {"name":"obj_vissengraat","order":3,"path":"objects/obj_vissengraat/obj_vissengraat.yy",},
     {"name":"scr_handle_pickup_button","order":2,"path":"scripts/scr_handle_pickup_button/scr_handle_pickup_button.yy",},
     {"name":"Joost_Idle","order":2,"path":"sprites/Joost_Idle/Joost_Idle.yy",},
@@ -25,6 +28,6 @@
     {"name":"obj_shovel","order":1,"path":"objects/obj_shovel/obj_shovel.yy",},
     {"name":"Turd_PickedUp","order":3,"path":"sprites/Turd_PickedUp/Turd_PickedUp.yy",},
     {"name":"scr_clean","order":1,"path":"scripts/scr_clean/scr_clean.yy",},
-    {"name":"spr_vuilniszak","order":3,"path":"sprites/spr_vuilniszak/spr_vuilniszak.yy",},
+    {"name":"Vuilniszak_Fly_PickedUp","order":1,"path":"sprites/Vuilniszak_Fly_PickedUp/Vuilniszak_Fly_PickedUp.yy",},
   ],
 }

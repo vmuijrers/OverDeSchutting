@@ -6,3 +6,4 @@
 //Get all obj_physics_object within collision zone;
 
 scr_clean(x,y,64)
+

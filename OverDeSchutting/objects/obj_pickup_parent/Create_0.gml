@@ -6,3 +6,4 @@ state = WEAPON_STATE.IDLE;
 look_dir = 1;
 
 hitting_range = 30
+

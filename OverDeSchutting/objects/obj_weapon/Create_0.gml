@@ -2,9 +2,11 @@
 // You can write your code in this editor
 
 
+
 // Inherit the parent event
 event_inherited();
 
-scr_stain(stain_sprite,x,y,abs(point_distance_3d(0,0,0,xSpd,ySpd,zSpd)))
-
-dented = 3
+sprite_fly_up = spr_weapon
+sprite_fly_down = spr_weapon
+sprite_grond = spr_weapon
+sprite_picked_up = spr_weapon

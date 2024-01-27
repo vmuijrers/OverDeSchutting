@@ -21,6 +21,7 @@ if(current_pickup == noone)
 else
 {
 	draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
+	draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30,look_dir,1,0,c_white,1)
 }
 
 draw_circle(x,y, pickup_range, true)

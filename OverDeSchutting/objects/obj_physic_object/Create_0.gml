@@ -15,3 +15,12 @@ bouncyness = 0.7
 bouncecut = 2
 
 state = WEAPON_STATE.IDLE;
+
+
+shadow_sprite = spr_turd_shadow
+stain_sprite = Poepvlek
+
+sprite_fly_up = sprite_index
+sprite_fly_down = sprite_index
+sprite_grond = sprite_index
+sprite_picked_up = sprite_index

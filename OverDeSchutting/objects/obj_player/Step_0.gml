@@ -24,7 +24,7 @@ if (gamepad_is_connected(pad_num))
 	if(current_pickup != noone && current_pickup.state == WEAPON_STATE.PICKUP)
 	{
 		current_pickup.x = x;
-		current_pickup.y = y - sprite_height;
+		current_pickup.y = y;
 		current_pickup.look_dir = look_dir;
 		
 	}
