@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+//Decreaes swing so you can swing again
+swing -= 1
+
 if (gamepad_is_connected(pad_num))
 {
     // do stuff with pad "i"
@@ -29,9 +32,10 @@ if (gamepad_is_connected(pad_num))
 	}
 	
 	//do action
-	if(gamepad_button_check_pressed(pad_num, gp_face2))
+	if(gamepad_button_check_pressed(pad_num, gp_face2) && swing<=0)
 	{
 		scr_handle_action_button();		
+		swing = 8
 	}
 	
 	

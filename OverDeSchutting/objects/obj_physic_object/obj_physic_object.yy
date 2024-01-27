@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "Types",
+    "path": "folders/Objects/Objects/Types.yy",
   },
   "parentObjectId": {
     "name": "obj_z",

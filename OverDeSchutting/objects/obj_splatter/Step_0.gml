@@ -3,7 +3,7 @@
 event_inherited()
 if(dented>0)
 {
-	image_yscale=0.5
+	image_yscale=0.8
 	dented-=1;
 }
 else

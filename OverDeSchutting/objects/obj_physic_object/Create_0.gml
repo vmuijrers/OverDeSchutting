@@ -18,10 +18,12 @@ maxX = 0
 state = WEAPON_STATE.IDLE;
 schutting_hoogte = 100
 
-shadow_sprite = spr_turd_shadow
+shadow_sprite = Blobshadow_Small
 stain_sprite = Poepvlek
 
 sprite_fly_up = sprite_index
 sprite_fly_down = sprite_index
 sprite_grond = sprite_index
 sprite_picked_up = sprite_index
+
+isBroom=false

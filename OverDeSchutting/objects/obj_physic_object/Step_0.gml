@@ -21,10 +21,13 @@ if(z>0)
 	zSpd -= grav
 }
 z += zSpd
+
+var bounced = false;
 if(z < 0)
 {
 	event_user(10)
-			
+	bounced=true;
+	
 	//Scale the x,y speed
 	mspd*=bouncyness
 	
@@ -55,6 +58,12 @@ if(z==0)
 	}
 	else
 	{
+		if(mspd != 0 && !bounced)
+		{
+			//Bounced out
+			event_user(10)
+			bounced=true;
+		}
 		mspd=0
 	}
 }

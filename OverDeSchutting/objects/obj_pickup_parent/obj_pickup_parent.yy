@@ -14,8 +14,8 @@
     "path": "folders/Objects/Pickups.yy",
   },
   "parentObjectId": {
-    "name": "obj_physic_object",
-    "path": "objects/obj_physic_object/obj_physic_object.yy",
+    "name": "obj_splatter",
+    "path": "objects/obj_splatter/obj_splatter.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

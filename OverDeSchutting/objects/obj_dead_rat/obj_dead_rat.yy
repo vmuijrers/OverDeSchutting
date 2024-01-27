@@ -13,8 +13,8 @@
     "path": "folders/Objects/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_splatter",
-    "path": "objects/obj_splatter/obj_splatter.yy",
+    "name": "obj_pickup_parent",
+    "path": "objects/obj_pickup_parent/obj_pickup_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dead_rat",
-    "path": "sprites/spr_dead_rat/spr_dead_rat.yy",
+    "name": "Deadmau5_Ground",
+    "path": "sprites/Deadmau5_Ground/Deadmau5_Ground.yy",
   },
   "spriteMaskId": null,
   "visible": true,
