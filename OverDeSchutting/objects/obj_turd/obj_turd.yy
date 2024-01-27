@@ -13,8 +13,8 @@
     "path": "folders/Objects/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_splatter",
-    "path": "objects/obj_splatter/obj_splatter.yy",
+    "name": "obj_pickup_parent",
+    "path": "objects/obj_pickup_parent/obj_pickup_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
