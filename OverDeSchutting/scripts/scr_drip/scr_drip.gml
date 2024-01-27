@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_drip(drip_posx,drip_posy,drip_dist){
-
+/*
 	rdir = random(360)
 	rlen = random(drip_dist)
 
@@ -45,5 +45,5 @@ function scr_drip(drip_posx,drip_posy,drip_dist){
 		}
 		surface_reset_target()
 	}
-
+*/
 }
