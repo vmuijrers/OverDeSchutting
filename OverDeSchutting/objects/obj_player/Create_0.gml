@@ -22,9 +22,5 @@ hor=0
 ver=0
 
 
-sprite_hands_empty = Joost_Hands_Empty
-sprite_hands_hold = Joost_Hands_Hold
-sprite_idle = Joost_Idle
-sprite_run = Joost_Run
-
+scr_load_player_sprites()
 image_index=0;
