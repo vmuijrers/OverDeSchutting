@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_turd_object",
-    "path": "sprites/spr_turd_object/spr_turd_object.yy",
+    "name": "Turd_Grond",
+    "path": "sprites/Turd_Grond/Turd_Grond.yy",
   },
   "spriteMaskId": null,
   "visible": true,

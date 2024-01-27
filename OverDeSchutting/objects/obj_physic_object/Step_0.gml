@@ -23,7 +23,7 @@ if(z>0)
 z += zSpd
 if(z < 0)
 {
-	event_user(0)
+	event_user(10)
 			
 	//Scale the x,y speed
 	mspd*=bouncyness
@@ -35,6 +35,8 @@ if(z < 0)
 	{
 		zSpd=0
 		z=0
+		
+		mspd*=bouncyness
 	}
 	else
 	{
@@ -65,3 +67,13 @@ ySpd = lengthdir_y(mspd,mdir)
 //Do x,y movement
 x+=xSpd
 y+=ySpd*0.5
+
+
+if(xSpd != 0 || ySpd !=0 || zSpd != 0)
+{
+	state = WEAPON_STATE.FLYING
+}
+else if(state!= WEAPON_STATE.PICKUP)
+{
+	state = WEAPON_STATE.IDLE
+}

@@ -24,8 +24,8 @@ minY = sprite_height;
 maxY = global.screen_height;
 show_debug_message("minX: " + string(minX));
 show_debug_message("maxX: " + string(maxX));
-x = (minX + maxX) / 2
-y = global.screen_height / 2
+x = (minX + maxX) / 6
+y = global.screen_height / 6
 show_debug_message("x: " + string(x));
 show_debug_message("y: " + string(y));
             }

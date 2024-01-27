@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-state = WEAPON_STATE.IDLE;
-look_dir = 1;
 
+
+// Inherit the parent event
+event_inherited();
+
+sprite_fly_up = spr_weapon
+sprite_fly_down = spr_weapon
+sprite_grond = spr_weapon
+sprite_picked_up = spr_weapon
