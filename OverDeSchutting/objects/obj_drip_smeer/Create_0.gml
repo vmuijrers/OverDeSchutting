@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+radius = 32
 
-// Inherit the parent event
-event_inherited();
+drip_intensity = 1
 
-scr_stain(spr_turd_stain,x,y)
+decay_multiply = 0.99
+decay_direct = 0.1

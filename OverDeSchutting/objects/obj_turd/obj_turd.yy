@@ -3,19 +3,17 @@
   "resourceVersion": "1.0",
   "name": "obj_turd",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/Objects/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_physic_object",
-    "path": "objects/obj_physic_object/obj_physic_object.yy",
+    "name": "obj_splatter",
+    "path": "objects/obj_splatter/obj_splatter.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

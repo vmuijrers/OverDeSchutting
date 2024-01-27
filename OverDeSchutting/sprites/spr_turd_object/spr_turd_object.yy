@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_turd_object",
-  "bbox_bottom": 30,
+  "bbox_bottom": 31,
   "bbox_left": 2,
-  "bbox_right": 28,
+  "bbox_right": 29,
   "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Splatters",
+    "path": "folders/Sprites/Splatters.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

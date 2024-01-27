@@ -7,8 +7,9 @@ ySpd=0
 zSpd=0
 z=0
 
-grav = 0.5;
+grav = 0.3;
 fric = 0.05
+airfric = 0.025
 
 bouncyness = 0.7
 bouncecut = 2

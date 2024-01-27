@@ -2,22 +2,18 @@
 // You can write your code in this editor
 
 //Apply x,y friction
-spd = point_distance(0,0,xSpd,ySpd)
-dir = point_direction(0,0,xSpd,ySpd)
-if(spd>fric)
+mspd = point_distance(0,0,xSpd,ySpd)
+mdir = point_direction(0,0,xSpd,ySpd)
+
+//Do air friction
+if(mspd>airfric)
 {
-	spd -= fric
+	mspd -= airfric
 }
 else
 {
-	spd = 0
+	mspd = 0
 }
-xSpd = lengthdir_x(spd,dir)
-ySpd = lengthdir_y(spd,dir)
-
-//Do x,y movement
-x+=xSpd
-y+=ySpd*0.5
 
 //Apply z movement
 if(z>0)
@@ -30,13 +26,12 @@ if(z < 0)
 	event_user(0)
 			
 	//Scale the x,y speed
-	xSpd*= bouncyness
-	ySpd*=bouncyness
+	mspd*=bouncyness
 	
 	//Scale the z bounce, with a cut to account for small bounce moves
 	zSpd *= -bouncyness
 	zSpd -= bouncecut
-	if(zSpd < 0)
+	if(zSpd <= 0)
 	{
 		zSpd=0
 		z=0
@@ -49,3 +44,24 @@ if(z < 0)
 
 
 
+//Do ground friction
+if(z==0)
+{
+	if(mspd>fric)
+	{
+		mspd-=fric
+	}
+	else
+	{
+		mspd=0
+	}
+}
+
+
+//Apply x,y, movement and speed now
+xSpd = lengthdir_x(mspd,mdir)
+ySpd = lengthdir_y(mspd,mdir)
+
+//Do x,y movement
+x+=xSpd
+y+=ySpd*0.5
