@@ -13,9 +13,10 @@ airfric = 0.025
 
 bouncyness = 0.7
 bouncecut = 2
-
+minX = 0
+maxX = 0
 state = WEAPON_STATE.IDLE;
-
+schutting_hoogte = 100
 
 shadow_sprite = spr_turd_shadow
 stain_sprite = Poepvlek

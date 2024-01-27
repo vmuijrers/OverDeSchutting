@@ -18,16 +18,12 @@ case "gamepad discovered":                     // A game pad has been discovered
             image_index = instance_number(object_index);
             pad_num = pad;
 			show_debug_message(pad_num);
-minX = pad_num * global.screen_width + sprite_width / 2;
-maxX = (pad_num + 1) * global.screen_width - sprite_width / 2;
-minY = sprite_height;
-maxY = global.screen_height;
-show_debug_message("minX: " + string(minX));
-show_debug_message("maxX: " + string(maxX));
-x = (minX + maxX) / 6
-y = global.screen_height / 6
-show_debug_message("x: " + string(x));
-show_debug_message("y: " + string(y));
+			startX = pad_num * global.screen_part + sprite_width / 2;
+			endX = (pad_num + 1) * global.screen_part - sprite_width / 2;
+			x = (startX + endX) / 2
+			y = global.room_height / 2
+			show_debug_message("x: " + string(x));
+			show_debug_message("y: " + string(y));
             }
         }
     break;

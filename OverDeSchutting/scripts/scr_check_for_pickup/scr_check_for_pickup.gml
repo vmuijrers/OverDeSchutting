@@ -1,8 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_handle_pickup_button(){
-	
-	//if no object pick something up
+function scr_check_for_pickup(){
+//if no object pick something up
 	if(current_pickup == noone)
 	{
 		_objs_list = ds_list_create();
@@ -15,10 +14,5 @@ function scr_handle_pickup_button(){
 			 break;
 		   }
 		}
-	}else{
-	 //throw object
-		scr_drop(current_pickup);
-		
-
 	}
 }

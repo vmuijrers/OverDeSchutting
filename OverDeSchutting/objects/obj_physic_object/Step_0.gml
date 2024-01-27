@@ -64,10 +64,25 @@ if(z==0)
 xSpd = lengthdir_x(mspd,mdir)
 ySpd = lengthdir_y(mspd,mdir)
 
-//Do x,y movement
-x+=xSpd
-y+=ySpd*0.5
 
+//Do x,y movement
+scr_calc_borders()
+
+if(state == WEAPON_STATE.PICKUP){
+show_debug_message("x: " + string(x) + " y: " + string(y) + "z: " + string(z));
+show_debug_message("minX " + string(minX) + " maxX: " + string(maxX));
+}
+x+=xSpd
+
+if(state = WEAPON_STATE.FLYING && (x > maxX || x < minX) && z < global.schutting_hoogte)
+{
+ xSpd *= -1	
+ x += xSpd * 2
+}
+
+
+y+=ySpd*0.5
+scr_periodic_bounderies();
 
 if(xSpd != 0 || ySpd !=0 || zSpd != 0)
 {

@@ -4,15 +4,19 @@ pad_num = -1;
 movespeed = 3;
 minX = 0;
 maxX = 1920;
-minY = 0;
-maxY = 1080;
+minY = 70;
+maxY = global.room_height;
 pickup_range = 60;
 look_dir = 1;
 
+max_throw_power = 10;
+is_charging = false;
 //show_debug_message("minX: " + string(minX));
 //show_debug_message("maxX: " + string(maxX));
 
 current_pickup = noone;
+pickup_charge_time = 0;
+pickup_max_charge_time = 30;
 
 hor=0
 ver=0

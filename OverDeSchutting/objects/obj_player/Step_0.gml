@@ -3,30 +3,51 @@
 if (gamepad_is_connected(pad_num))
 {
     // do stuff with pad "i"
-	if(gamepad_button_check(pad_num, gp_face1)){
-		show_debug_message("hello");
-		
-	}
+	
 	hor = gamepad_axis_value(pad_num, gp_axislh);
 	ver = gamepad_axis_value(pad_num, gp_axislv);
+	scr_calc_borders()
 	scr_move(hor, ver);
 	
-	
+	//check for pickups
 	if(gamepad_button_check_pressed(pad_num, gp_face1))
 	{
-		scr_handle_pickup_button();		
+		if(current_pickup == noone)
+		{
+			scr_check_for_pickup();	
+		}else{
+			is_charging = true;
+			pickup_charge_time = 0;
+		}
 	}
+	
+	//throw object
+	if(gamepad_button_check_released(pad_num, gp_face1) && is_charging)
+	{
+		is_charging = false;
+		scr_drop(current_pickup);		
+	}
+	
+	//do action
 	if(gamepad_button_check_pressed(pad_num, gp_face2))
 	{
 		scr_handle_action_button();		
 	}
 	
+	
+	//udpate pickup and charge
 	if(current_pickup != noone && current_pickup.state == WEAPON_STATE.PICKUP)
 	{
 		current_pickup.x = x;
 		current_pickup.y = y;
 		current_pickup.look_dir = look_dir;
 		
+		//charge the weapon for throwing
+		if(is_charging && gamepad_button_check(pad_num, gp_face1))
+		{
+			pickup_charge_time += 1;
+			pickup_charge_time = min(pickup_charge_time, pickup_max_charge_time);
+		}
 	}
 	
 }
