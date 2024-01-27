@@ -10,5 +10,19 @@ if (gamepad_is_connected(pad_num))
 	hor = gamepad_axis_value(pad_num, gp_axislh);
 	ver = gamepad_axis_value(pad_num, gp_axislv);
 	scr_move(hor, ver);
+	
+	
+	if(gamepad_button_check_pressed(pad_num, gp_face1))
+	{
+		scr_handle_action_button();		
+	}
+	
+	if(current_pickup != noone && current_pickup.state == WEAPON_STATE.PICKUP)
+	{
+		current_pickup.x = x;
+		current_pickup.y = y - sprite_height;
+		current_pickup.look_dir = look_dir;
+	}
+	
 }
 
