@@ -10,6 +10,7 @@
     {"name":"spr_niks","order":1,"path":"sprites/spr_niks/spr_niks.yy",},
     {"name":"obj_blikje","order":2,"path":"objects/obj_blikje/obj_blikje.yy",},
     {"name":"spr_vissengraad","order":4,"path":"sprites/spr_vissengraad/spr_vissengraad.yy",},
+    {"name":"scr_clean","order":1,"path":"scripts/scr_clean/scr_clean.yy",},
     {"name":"spr_vuilniszak","order":3,"path":"sprites/spr_vuilniszak/spr_vuilniszak.yy",},
   ],
 }

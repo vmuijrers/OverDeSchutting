@@ -63,6 +63,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_splatter","path":"objects/obj_splatter/obj_splatter.yy",},},
     {"id":{"name":"spr_dead_rat_shadow","path":"sprites/spr_dead_rat_shadow/spr_dead_rat_shadow.yy",},},
+    {"id":{"name":"scr_clean","path":"scripts/scr_clean/scr_clean.yy",},},
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"scr_handle_action_button","path":"scripts/scr_handle_action_button/scr_handle_action_button.yy",},},
