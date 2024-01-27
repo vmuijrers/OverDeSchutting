@@ -29,7 +29,7 @@ else
 	{
 		//draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
 		var turnanim = 1
-		if(swing>0)
+		if(swing>7)
 		{
 			turnanim=-1
 		}
