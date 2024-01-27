@@ -8,5 +8,7 @@ event_inherited();
 shadow_sprite = spr_dead_rat_shadow
 stain_sprite = spr_blood_stain	
 
-bouncyness = 0.8
-bouncecut = 2
+bouncyness = 0.7
+bouncecut = 4
+
+hp = 2 + round(random(5))

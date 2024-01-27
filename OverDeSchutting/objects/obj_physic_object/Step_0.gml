@@ -35,6 +35,8 @@ if(z < 0)
 	{
 		zSpd=0
 		z=0
+		
+		mspd*=bouncyness
 	}
 	else
 	{
