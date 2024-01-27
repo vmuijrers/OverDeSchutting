@@ -43,5 +43,4 @@ for(i = 0; i < ds_list_size(_objs_list); i++){
 
 //Effect
 var ID = instance_create_depth(x,y,depth,obj_bezemhit)
-ID.daddy=id
-		   
+ID.daddy=daddy

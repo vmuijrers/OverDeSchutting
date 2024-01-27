@@ -7,6 +7,7 @@ function scr_handle_action_button(){
 	{
 
 	}else{
+		current_pickup.daddy=id
 		with(current_pickup)
 		{
 			event_user(0)
