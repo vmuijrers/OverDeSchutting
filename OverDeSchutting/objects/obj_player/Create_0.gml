@@ -24,3 +24,6 @@ ver=0
 
 scr_load_player_sprites()
 image_index=0;
+
+
+swing = 0;

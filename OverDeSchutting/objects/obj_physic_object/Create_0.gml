@@ -25,3 +25,5 @@ sprite_fly_up = sprite_index
 sprite_fly_down = sprite_index
 sprite_grond = sprite_index
 sprite_picked_up = sprite_index
+
+isBroom=false
