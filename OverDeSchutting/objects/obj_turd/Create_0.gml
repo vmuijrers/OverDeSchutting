@@ -15,3 +15,4 @@ sprite_picked_up = Turd_PickedUp
 
 bouncyness = 0
 bouncecut = 100
+is_edible = true;

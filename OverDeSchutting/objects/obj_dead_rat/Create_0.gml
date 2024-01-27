@@ -12,7 +12,7 @@ sprite_fly_up = Deadmau5_Fly_Up
 sprite_fly_down = Deadmau5_Fly_Down
 sprite_grond  =Deadmau5_Ground
 sprite_picked_up = Deadmau5_PickedUp
-
+is_edible = true;
 
 bouncyness = 0.75
 bouncecut = 4

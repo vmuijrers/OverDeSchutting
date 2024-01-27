@@ -16,3 +16,4 @@ sprite_picked_up = Tuinkabouter_PickedUp
 
 bouncyness = 0.8
 bouncecut = 2
+

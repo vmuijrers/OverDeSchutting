@@ -12,7 +12,7 @@ sprite_fly_up = Blikje_A_Fly_Up
 sprite_fly_down = Blikje_A_Fly_Down
 sprite_grond = Blikje_A_Grond
 sprite_picked_up = Blikje_A_PickedUp
-
+is_edible = true;
 
 bouncyness = 0.8
 bouncecut = 2

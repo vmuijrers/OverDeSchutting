@@ -10,3 +10,5 @@ stain_sprite = spr_niks
 
 bouncyness = 0.9
 bouncecut = 2
+
+is_edible = true;

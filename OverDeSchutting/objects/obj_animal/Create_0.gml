@@ -9,14 +9,14 @@ move_speed = 0.5;
 min_wait_time = 30;
 max_wait_time = 60;
 roam_range = 100
-
+target_list = ds_list_create()
 minX = 0;
 minX = 0;
 
 idle_timer = 0;
 poop_timer = 0;
 eat_timer = 0;
-default_image_speed = 0.5
+default_image_speed = 1
 
 sprite_name = "Pig_Fat"
 look_dir = 1

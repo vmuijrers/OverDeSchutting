@@ -6,7 +6,7 @@ xSpd=0
 ySpd=0
 zSpd=0
 z=0
-
+is_edible = false;
 grav = 0.3;
 fric = 0.05
 airfric = 0.025
