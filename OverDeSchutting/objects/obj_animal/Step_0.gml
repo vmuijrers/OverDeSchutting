@@ -42,9 +42,9 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 				level = 0;
 				
 				var _turd = instance_create_layer(x,y,"Instances", obj_big_turd)
-				_turd.xSpd = -look_dir * 3
+				_turd.xSpd = -look_dir * 1
 				_turd.ySpd = -1 + random(2)
-				_turd.zSpd =  1 + 8
+				_turd.zSpd =  1 + 2
 				state_animal = 	ANIMAL_STATE.MOVE
 			}
 			//TODO: reset target when thrown
@@ -74,6 +74,7 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 					x-=10000
 					ds_list_copy(target_list, scr_find_objects_of_type_in_range(px,py, obj_physic_object, 500));
 					x+=10000
+					var _closest = 1000000;
 					for(i =0 ; i < ds_list_size(target_list);i++)
 					{
 						var _obj = ds_list_find_value(target_list, i);
@@ -81,9 +82,13 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 							continue;	
 						}else
 						{
-							target = _obj
-							target_x = target.x;
-							target_y = target.y;
+							_dist = point_distance(_obj.x, _obj.y, x,y)
+							if(_dist < _closest)
+							{
+								target = _obj
+								target_x = target.x;
+								target_y = target.y;
+							}
 						}	
 					}
 					

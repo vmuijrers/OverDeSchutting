@@ -3,9 +3,11 @@
 
 
 //Draw my shadow
+
 draw_sprite(Blobshadow_Player,0,x,y)
 
 //Do the stunned drawing
+
 if(stunned>0)
 {
 	sprite_index = sprite_stunned
@@ -26,7 +28,6 @@ if(stunned>0)
 		draw_sprite(sprite_index,image_index,x,y)
 	}
 }
-
 else
 {
 	
@@ -39,10 +40,9 @@ else
 	}
 	else
 	{
-		draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
-		if(current_pickup.object_index != obj_animal){
+		//draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
 		sprite_index = sprite_idle
-		image_speed = 0.3
+		image_speed = 0.5
 	}
 
 
@@ -69,7 +69,10 @@ else
 		else
 		{
 			draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
-			draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30,look_dir,1,0,c_white,1)
+			if(current_pickup.object_index  != obj_animal){
+				draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30,look_dir,1,0,c_white,1)
+			}
 		}
 	}
 }
+
