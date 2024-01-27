@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_blikje",
-    "path": "sprites/spr_blikje/spr_blikje.yy",
+    "name": "Blikje_A_Grond",
+    "path": "sprites/Blikje_A_Grond/Blikje_A_Grond.yy",
   },
   "spriteMaskId": null,
   "visible": true,

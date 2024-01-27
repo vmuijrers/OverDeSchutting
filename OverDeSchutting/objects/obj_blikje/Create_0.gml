@@ -6,7 +6,13 @@
 event_inherited();
 
 shadow_sprite = spr_dead_rat_shadow
-stain_sprite = spr_blikje_stain	
+stain_sprite = Pilsvlek	
+
+sprite_fly_up = Blikje_A_Fly_Up
+sprite_fly_down = Blikje_A_Fly_Down
+sprite_grond = Blikje_A_Grond
+sprite_picked_up = Blikje_A_PickedUp
+
 
 bouncyness = 0.8
 bouncecut = 2

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 dented = 3
 
-var number_of_gibs = 2 + floor(random(4))
+var number_of_gibs = 4 + floor(random(5))
 
 var number_of_items = 1;
 if(abs(zSpd)>2+random(4))
@@ -41,9 +41,9 @@ repeat(number_of_gibs)
 	new_spawn.zSpd=2+random(3)	
 	if(random(1)>0.5 && number_of_gibs>7)
 	{
-		new_spawn.xSpd*=choose(1,2)
-		new_spawn.ySpd*=choose(1,2)
-		new_spawn.zSpd*=choose(1,2)
+		new_spawn.xSpd*=choose(1,random(2))
+		new_spawn.ySpd*=choose(1,random(2))
+		new_spawn.zSpd*=choose(1,random(1.5))
 	}
 }
 
