@@ -16,3 +16,5 @@ is_edible = true;
 
 bouncyness = 0.8
 bouncecut = 2
+
+dmgplayer = false

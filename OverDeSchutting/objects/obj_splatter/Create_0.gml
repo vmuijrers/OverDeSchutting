@@ -14,3 +14,5 @@ sprite_grond = sprite_index
 sprite_picked_up = sprite_index
 
 dented = 0
+
+dmgplayer = false

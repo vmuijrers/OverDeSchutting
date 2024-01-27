@@ -7,3 +7,5 @@ event_inherited();
 
 sprite_fly = BigTurd_Gib_Fly
 sprite_floor = Poepvlek
+
+dmgplayer = false

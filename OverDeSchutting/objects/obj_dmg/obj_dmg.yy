@@ -31,7 +31,13 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": null,
+  "spriteId": {
+    "name": "spr_collisionmask",
+    "path": "sprites/spr_collisionmask/spr_collisionmask.yy",
+  },
+  "spriteMaskId": {
+    "name": "spr_collisionmask",
+    "path": "sprites/spr_collisionmask/spr_collisionmask.yy",
+  },
   "visible": true,
 }

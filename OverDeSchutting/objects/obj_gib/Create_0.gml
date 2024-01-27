@@ -11,3 +11,5 @@ sprite_fly = Vuilniszak_Gib_Fly
 sprite_floor = Vuilniszak_Gib_Floor
 
 index = floor(random(10000))
+
+dmgplayer = false

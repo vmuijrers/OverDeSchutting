@@ -17,3 +17,5 @@ bouncyness = 0.7
 bouncecut = 6
 
 hp = 999999
+
+dmgplayer = true

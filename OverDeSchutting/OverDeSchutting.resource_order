@@ -1,4 +1,10 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Joost_Stunned","order":1,"path":"sprites/Joost_Stunned/Joost_Stunned.yy",},
+    {"name":"Jos_Stunned","order":1,"path":"sprites/Jos_Stunned/Jos_Stunned.yy",},
+    {"name":"Josselin_Stunned","order":1,"path":"sprites/Josselin_Stunned/Josselin_Stunned.yy",},
+    {"name":"Joske_Stunned","order":1,"path":"sprites/Joske_Stunned/Joske_Stunned.yy",},
+    {"name":"spr_collisionmask","order":1,"path":"sprites/spr_collisionmask/spr_collisionmask.yy",},
+  ],
 }

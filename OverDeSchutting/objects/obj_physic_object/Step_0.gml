@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 //Apply x,y friction
 mspd = point_distance(0,0,xSpd,ySpd)
 mdir = point_direction(0,0,xSpd,ySpd)
@@ -100,4 +101,11 @@ if(xSpd != 0 || ySpd != 0 || zSpd != 0)
 else if(state != WEAPON_STATE.PICKUP)
 {
 	state = WEAPON_STATE.IDLE
+}
+
+
+//Do logic to create damage mask if needed
+if(z<32 && zSpd<-4.5 && point_distance_3d(0,0,0,zSpd,ySpd,zSpd)>5.5 && dmgplayer)
+{
+	instance_create_depth(x,y,depth,obj_dmg)
 }

@@ -16,3 +16,5 @@ sprite_picked_up = Tuinstoel_PickedUp
 
 bouncyness = 0.6
 bouncecut = 2
+
+dmgplayer = true

@@ -35,6 +35,9 @@
     "name": "TuinTafel_Grond",
     "path": "sprites/TuinTafel_Grond/TuinTafel_Grond.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_collisionmask",
+    "path": "sprites/spr_collisionmask/spr_collisionmask.yy",
+  },
   "visible": true,
 }
