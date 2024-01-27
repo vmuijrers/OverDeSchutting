@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.num_players = 2;
-global.screen_width = 1920;
-global.screen_height = 1080;
+global.num_players = 3;
+global.screen_width = 1280;
+global.screen_height = 720;
 global.room_width = 1280;
 global.room_height = 300;
 global.schutting_hoogte = 50;
