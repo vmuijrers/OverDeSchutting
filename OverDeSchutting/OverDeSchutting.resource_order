@@ -59,7 +59,7 @@
     {"name":"obj_shovel","order":1,"path":"objects/obj_shovel/obj_shovel.yy",},
     {"name":"Josselin_Run","order":3,"path":"sprites/Josselin_Run/Josselin_Run.yy",},
     {"name":"Turd_PickedUp","order":3,"path":"sprites/Turd_PickedUp/Turd_PickedUp.yy",},
-    {"name":"spr_blood_stain","order":1,"path":"sprites/spr_blood_stain/spr_blood_stain.yy",},
+    {"name":"BloedVlekken","order":1,"path":"sprites/BloedVlekken/BloedVlekken.yy",},
     {"name":"obj_splatter","order":2,"path":"objects/obj_splatter/obj_splatter.yy",},
     {"name":"Joske_Run","order":1,"path":"sprites/Joske_Run/Joske_Run.yy",},
     {"name":"Blikje_A_Grond","order":2,"path":"sprites/Blikje_A_Grond/Blikje_A_Grond.yy",},

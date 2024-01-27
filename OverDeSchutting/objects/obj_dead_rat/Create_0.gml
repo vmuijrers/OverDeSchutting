@@ -6,7 +6,7 @@
 event_inherited();
 
 shadow_sprite = spr_dead_rat_shadow
-stain_sprite = spr_blood_stain	
+stain_sprite = BloedVlekken	
 
 sprite_fly_up = Deadmau5_Fly_Up
 sprite_fly_down = Deadmau5_Fly_Down

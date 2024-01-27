@@ -109,7 +109,7 @@
     {"id":{"name":"obj_shovel","path":"objects/obj_shovel/obj_shovel.yy",},},
     {"id":{"name":"Josselin_Run","path":"sprites/Josselin_Run/Josselin_Run.yy",},},
     {"id":{"name":"Turd_PickedUp","path":"sprites/Turd_PickedUp/Turd_PickedUp.yy",},},
-    {"id":{"name":"spr_blood_stain","path":"sprites/spr_blood_stain/spr_blood_stain.yy",},},
+    {"id":{"name":"BloedVlekken","path":"sprites/BloedVlekken/BloedVlekken.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_splatter","path":"objects/obj_splatter/obj_splatter.yy",},},
     {"id":{"name":"Joske_Run","path":"sprites/Joske_Run/Joske_Run.yy",},},

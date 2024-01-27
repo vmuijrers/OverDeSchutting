@@ -4,7 +4,7 @@
 
 
 // Inherit the parent event
-event_inherited();
+scr_stain(stain_sprite,x,y,max(1,zSpd))
 
 if(abs(zSpd)>3)
 {
@@ -20,7 +20,7 @@ if(hp<=0)
 		var lenstain = random(8)
 		x+=lengthdir_x(lenstain,dirstain)
 		y+=lengthdir_y(lenstain,dirstain)
-		event_inherited()
+		scr_stain(stain_sprite,x,y,max(1,zSpd)+random(3))
 	}
 	instance_destroy()
 }
