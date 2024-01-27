@@ -18,4 +18,14 @@ repeat(3)
 	poepdir += 160 - random(80)	
 }
 
+var number_of_gibs = 5+ floor(random(9))
+repeat(number_of_gibs)
+{
+	var new_spawn = instance_create_depth(x,y,depth,obj_poep_gib)
+	new_spawn.xSpd=-4+random(8)
+	new_spawn.ySpd=-4+random(8)
+	new_spawn.zSpd=2+random(3)	
+
+}
+
 instance_destroy()

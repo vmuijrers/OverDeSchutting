@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_turd",
+  "name": "obj_poep_gib",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":20,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,8 +12,8 @@
     "path": "folders/Objects/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_splatter",
-    "path": "objects/obj_splatter/obj_splatter.yy",
+    "name": "obj_gib",
+    "path": "objects/obj_gib/obj_gib.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Turd_Grond",
-    "path": "sprites/Turd_Grond/Turd_Grond.yy",
+    "name": "BigTurd_Gib_Fly",
+    "path": "sprites/BigTurd_Gib_Fly/BigTurd_Gib_Fly.yy",
   },
   "spriteMaskId": null,
   "visible": true,
