@@ -16,3 +16,5 @@ sprite_picked_up = Blikje_A_PickedUp
 
 bouncyness = 0.8
 bouncecut = 2
+
+dmgplayer = false

@@ -20,6 +20,7 @@
     {"name":"inst_44BBEFCA","path":"rooms/ValentijnsRoom/ValentijnsRoom.yy",},
     {"name":"inst_207C9F20","path":"rooms/ValentijnsRoom/ValentijnsRoom.yy",},
     {"name":"inst_604E2056","path":"rooms/ValentijnsRoom/ValentijnsRoom.yy",},
+    {"name":"inst_356F36A7","path":"rooms/ValentijnsRoom/ValentijnsRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -36,6 +37,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44BBEFCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_turd","path":"objects/obj_turd/obj_turd.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_207C9F20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_blikje","path":"objects/obj_blikje/obj_blikje.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_604E2056","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dead_rat","path":"objects/obj_dead_rat/obj_dead_rat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":181.0,"y":199.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_356F36A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bezem","path":"objects/obj_bezem/obj_bezem.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":224.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"shit_layer","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_524B26E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shitlayer","path":"objects/obj_shitlayer/obj_shitlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},

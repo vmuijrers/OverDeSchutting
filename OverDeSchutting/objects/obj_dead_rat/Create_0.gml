@@ -18,3 +18,5 @@ bouncyness = 0.75
 bouncecut = 4
 
 hp = 2 + round(random(5))
+
+dmgplayer = false

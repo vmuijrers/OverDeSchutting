@@ -35,6 +35,9 @@
     "name": "Vuilniszak_Fly_Grond",
     "path": "sprites/Vuilniszak_Fly_Grond/Vuilniszak_Fly_Grond.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_collisionmask",
+    "path": "sprites/spr_collisionmask/spr_collisionmask.yy",
+  },
   "visible": true,
 }

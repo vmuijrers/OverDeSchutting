@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-dmg = 0
-
- instance_destroy()
+if(other.dmg == 1 && other.daddy!=id)
+{
+	stunned = 45
+}

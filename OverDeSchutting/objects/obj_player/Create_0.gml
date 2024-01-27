@@ -27,3 +27,5 @@ image_index=0;
 
 
 swing = 0;
+
+stunned = 0

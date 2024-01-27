@@ -16,3 +16,5 @@ sprite_picked_up = TuinTafel_PickedUp
 
 bouncyness = 0.65
 bouncecut = 4
+
+dmgplayer = true

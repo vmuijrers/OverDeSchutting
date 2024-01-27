@@ -15,3 +15,5 @@ sprite_picked_up = BigTurd_PickedUp
 
 bouncyness = 0
 bouncecut = 100
+
+dmgplayer = true
