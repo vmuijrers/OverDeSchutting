@@ -19,3 +19,6 @@ if(number_of_gibs>0)
 		new_spawn.zSpd=1+random(2)	
 	}
 }
+
+
+weightmult = 1.5

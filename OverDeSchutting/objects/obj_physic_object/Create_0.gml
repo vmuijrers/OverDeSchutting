@@ -29,3 +29,5 @@ sprite_picked_up = sprite_index
 isBroom=false
 
 dmgplayer = false
+
+weightmult = 1

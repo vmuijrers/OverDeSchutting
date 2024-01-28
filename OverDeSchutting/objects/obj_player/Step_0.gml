@@ -2,7 +2,10 @@
 // You can write your code in this editor
 //Decreaes swing so you can swing again
 swing -= 1
-
+if(invunerable>0)
+{
+	invunerable-=1
+}
 if(stunned>0)
 {
 	if(current_pickup!=noone)

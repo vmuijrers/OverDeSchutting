@@ -24,3 +24,5 @@ if(hp<=0)
 	}
 	instance_destroy()
 }
+
+weightmult = 1.3
