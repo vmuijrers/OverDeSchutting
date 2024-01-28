@@ -38,7 +38,12 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 				poop_timer = 0;
 				target_x = x + choose(-roam_range, roam_range)	
 				target_y = y + choose(-roam_range, roam_range)
-				target_y = clamp(target_y, global.min_y, room_height)
+				while(!scr_is_in(target_x,target_y))
+				{
+					target_x = x + choose(-roam_range, roam_range)	
+					target_y = y + choose(-roam_range, roam_range)
+				}
+				//target_y = clamp(target_y, global.min_y, room_height)
 				level = 0;
 				
 				audio_play_sound(choose(snd_pigs_1, snd_pigs_2, snd_pigs_3, snd_pigs_4), 10, false);
@@ -99,7 +104,11 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 					{
 						target_x = x + choose(-roam_range, roam_range)	
 						target_y = y + choose(-roam_range, roam_range)
-						target_y = clamp(target_y, global.min_y, room_height)
+						while(!scr_is_in(target_x,target_y))
+						{
+							target_x = x + choose(-roam_range, roam_range)	
+							target_y = y + choose(-roam_range, roam_range)
+						}
 					}
 					state_animal = ANIMAL_STATE.MOVE;
 

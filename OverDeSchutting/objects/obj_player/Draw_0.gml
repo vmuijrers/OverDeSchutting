@@ -4,7 +4,7 @@
 
 //Draw my shadow
 
-draw_sprite(Blobshadow_Player,0,x,y)
+src_draw_sprite(Blobshadow_Player,0,x,y)
 
 //Do the stunned drawing
 
@@ -15,17 +15,17 @@ if(stunned>0)
 	if(stunned>35)
 	{
 		gpu_set_fog(true,c_white,0,0)
-		draw_sprite(sprite_index,image_index,x,y)
+		src_draw_sprite(sprite_index,image_index,x,y)
 		gpu_set_fog(false,c_white,0,0)
 	}
 	else if (stunned>25)
 	{
 		gpu_set_fog(true,c_black,0,0)
-		draw_sprite(sprite_index,image_index,x,y)
+		src_draw_sprite(sprite_index,image_index,x,y)
 		gpu_set_fog(false,c_white,0,0)
 	}
 	else{
-		draw_sprite(sprite_index,image_index,x,y)
+		src_draw_sprite(sprite_index,image_index,x,y)
 	}
 }
 else
@@ -47,12 +47,12 @@ else
 
 
 	//Draw me
-	draw_sprite_ext(sprite_index, image_index, x, y + offset, look_dir, 1, 0, c_white, 1);
+	src_draw_sprite_ext(sprite_index, image_index, x, y + offset, look_dir, 1, 0, c_white, 1);
 
 	//Draw my hands
 	if(current_pickup == noone)
 	{
-		draw_sprite_ext(sprite_hands_empty, image_index, x, y, look_dir, 1, 0, c_white, 1);
+		src_draw_sprite_ext(sprite_hands_empty, image_index, x, y, look_dir, 1, 0, c_white, 1);
 	}
 	else
 	{
@@ -70,13 +70,13 @@ else
 			{
 				turnanim=-1
 			}
-			draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y + offset,look_dir*turnanim,1,0,c_white,1)
+			src_draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y + offset,look_dir*turnanim,1,0,c_white,1)
 		}
 		else
 		{
-			draw_sprite_ext(sprite_hands_hold, image_index, x, y+ offset, look_dir, 1, 0, c_white, 1);
+			src_draw_sprite_ext(sprite_hands_hold, image_index, x, y+ offset, look_dir, 1, 0, c_white, 1);
 			if(current_pickup.object_index  != obj_animal){
-				draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30+ offset,look_dir,1,0,c_white,1)
+				src_draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30+ offset,look_dir,1,0,c_white,1)
 			}
 		}
 	}

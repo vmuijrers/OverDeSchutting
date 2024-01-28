@@ -6,22 +6,35 @@
 mspd = point_distance(0,0,xSpd,ySpd)
 mdir = point_direction(0,0,xSpd,ySpd)
 
-//Do air friction
-if(mspd>airfric)
-{
-	mspd -= airfric
-}
-else
-{
-	mspd = 0
-}
 
-//Apply z movement
+//Apply z movement only if inside the area
+if(scr_is_in(x,y))
+{
+	//Do air friction
+	if(mspd>airfric)
+	{
+		mspd -= airfric
+	}
+	else
+	{
+		mspd = 0
+	}
+}
 if(z>0)
 {
 	zSpd -= grav
 }
-z += zSpd
+if(z+zSpd<=69)
+{
+	if(scr_is_in(x,y))
+	{
+		z += zSpd
+	}
+}
+else
+{
+	z+=zSpd
+}
 
 var bounced = false;
 if(z < 0)
@@ -78,20 +91,33 @@ ySpd = lengthdir_y(mspd,mdir)
 //Do x,y movement
 scr_calc_borders()
 
-if(state == WEAPON_STATE.PICKUP){
-show_debug_message("x: " + string(x) + " y: " + string(y) + "z: " + string(z));
-show_debug_message("minX " + string(minX) + " maxX: " + string(maxX));
-}
-x+=xSpd
-
-if(state = WEAPON_STATE.FLYING && (x > maxX || x < minX) && z < global.schutting_hoogte)
+if(z>69)
 {
- xSpd *= -1	
- x += xSpd * 2
+	x+=xSpd
+	y+=ySpd*0.5
 }
-
-
-y+=ySpd*0.5
+else
+{
+	if(scr_is_in(x+xSpd,y))
+	{
+		x+=xSpd
+	}
+	else
+	{
+		xSpd*= -1
+	}
+	
+	if(scr_is_in(x,y+ySpd))
+	{
+		y+=ySpd
+	}
+	else
+	{
+		ySpd*= -1
+	}
+	
+}
+	
 scr_periodic_bounderies();
 
 if(xSpd != 0 || ySpd != 0 || zSpd != 0)
