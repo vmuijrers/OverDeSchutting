@@ -36,12 +36,9 @@ enum WEAPON_STATE {
 	FLYING = 2
 }
 
-for (var i = 0; i < 1; i++;)
-{
-	//instance_create_layer(random_range(0, global.screen_width), 500,"Instances", obj_animal)
-}
 //spawn a truck
 alarm[0] = random_range(room_speed * 30, room_speed *60);
 
+//set end game timer
 end_game_timer = room_speed * 420;
 alarm[1] = end_game_timer;

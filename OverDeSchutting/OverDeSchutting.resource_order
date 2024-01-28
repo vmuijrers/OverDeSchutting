@@ -170,6 +170,7 @@
     {"name":"obj_beeld_joske","order":10,"path":"objects/obj_beeld_joske/obj_beeld_joske.yy",},
     {"name":"obj_tuinstoel","order":2,"path":"objects/obj_tuinstoel/obj_tuinstoel.yy",},
     {"name":"spr_Rob_Hands_Hold","order":20,"path":"sprites/spr_Rob_Hands_Hold/spr_Rob_Hands_Hold.yy",},
+    {"name":"music","order":5,"path":"sounds/music/music.yy",},
     {"name":"snd_robot_insult_2","order":1,"path":"sounds/snd_robot_insult_2/snd_robot_insult_2.yy",},
     {"name":"obj_vrachtwagen","order":1,"path":"objects/obj_vrachtwagen/obj_vrachtwagen.yy",},
     {"name":"Level_Ondergrond_C_800x600","order":1,"path":"sprites/Level_Ondergrond_C_800x600/Level_Ondergrond_C_800x600.yy",},
