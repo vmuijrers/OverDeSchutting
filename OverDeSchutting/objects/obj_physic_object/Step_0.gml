@@ -59,7 +59,20 @@ if(z < 0)
 {
 	event_user(10)
 	bounced=true;
-	audio_play_sound(choose(snd_drop_1,snd_drop_2,snd_drop_3 ), 10, false);
+	
+	if(object_index == obj_vuilniszak){
+			audio_play_sound(zacht_drop, 10, false);
+	}else if(object_index == obj_beeld_joost || 
+		object_index == obj_beeld_jos || 
+		object_index == obj_beeld_joske || 
+		object_index == obj_beeld_josselin || 
+		object_index == obj_tuinkabouter || 
+		object_index == obj_bbq){
+		audio_play_sound(hard_drop, 10, false);
+	}
+	else{
+		audio_play_sound(choose(snd_drop_1,snd_drop_2,snd_drop_3 ), 10, false);
+	}
 	//Scale the x,y speed
 	mspd*=bouncyness
 	

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-holding = choose(obj_vuilniszak)
+holding = choose(obj_vuilniszak, obj_animal, obj_big_turd)
 x= 128+random(room_width-374)+(choose(0,1,2)*room_width)
 x_target = (x+room_width -640) mod room_width
 
