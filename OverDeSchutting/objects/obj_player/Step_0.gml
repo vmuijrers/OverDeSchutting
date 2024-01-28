@@ -9,6 +9,7 @@ if(stunned>0)
 	{
 		var held_obj = current_pickup
 		scr_drop(current_pickup);	
+		held_obj.xSpd = -2+random(4)
 		held_obj.ySpd = 1+random(2)
 		held_obj.zSpd = 1+random(1)
 		held_obj.y+=1
