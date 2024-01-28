@@ -4,6 +4,7 @@
 function scr_sound_character_play(_player_name, _audio_name){
 	
 	switch(_player_name){
+		
 		case "jos":
 			switch(_audio_name){
 				case "grunt": return choose(snd_jos_grunt_1, snd_jos_grunt_2, snd_jos_grunt_3, snd_jos_grunt_4)
@@ -26,6 +27,7 @@ function scr_sound_character_play(_player_name, _audio_name){
 				case "insult": return choose(snd_joost_barf_1, snd_joost_barf_2)
 				case "yeet": return choose(snd_joost_yeet_1, snd_joost_yeet_2)
 		}
+		case "joske":
 		case "jocelyn":
 		switch(_audio_name){
 				case "grunt": return choose(snd_jocelyn_grunt_1, snd_jocelyn_grunt_2, snd_jocelyn_grunt_3)
