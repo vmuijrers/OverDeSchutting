@@ -18,14 +18,14 @@ else
 }
 
 
-if(random(1)>0.95 || (global.total_holdings>7 && random(1) > 0.8))
+if(random(1)>0.95)
 {
 	if(!instance_exists(obj_demonalisa))
 	{
 		holding = obj_demonalisa
 	}
 }
-else if(random(1)>0.92 || (global.total_holdings>7 && random(1) > 0.75))
+else if(random(1)>0.90)
 {
 	if(!instance_exists(obj_goldengnome))
 	{
