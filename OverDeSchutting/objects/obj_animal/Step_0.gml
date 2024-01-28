@@ -41,10 +41,13 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 				target_y = clamp(target_y, global.min_y, room_height)
 				level = 0;
 				
+				audio_play_sound(choose(pig__1_), 10, false);
 				var _turd = instance_create_layer(x,y,"Instances", obj_big_turd)
-				_turd.xSpd = -look_dir * 1
-				_turd.ySpd = -1 + random(2)
-				_turd.zSpd =  1 + 2
+				if(random(1.0) > 0.5){
+					_turd.xSpd = -look_dir * 1
+					_turd.ySpd = -1 + random(2)
+					_turd.zSpd =  1 + 2
+				}
 				state_animal = 	ANIMAL_STATE.MOVE
 			}
 			//TODO: reset target when thrown
@@ -57,7 +60,7 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 		 //if(state == WEAPON_STATE.IDLE){
 				if(target != noone /* && point_distance(x,y, target.x, target.y) <= stopping_distance * 1.5 */)
 				{
-					//target.x = 100000;
+					
 					with(target){
 						instance_destroy()
 					}

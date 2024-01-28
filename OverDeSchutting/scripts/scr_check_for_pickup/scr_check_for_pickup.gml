@@ -25,6 +25,7 @@ function scr_check_for_pickup(){
 		if nearest != noone
 		{
 			scr_pickup(nearest);
+			audio_play_sound(scr_sound_character_play(player_name, "grunt"), 10, false);
 		}
 	}
 }

@@ -28,7 +28,7 @@ if(z < 0)
 {
 	event_user(10)
 	bounced=true;
-	
+	audio_play_sound(choose(snd_drop_1,snd_drop_2,snd_drop_3 ), 10, false);
 	//Scale the x,y speed
 	mspd*=bouncyness
 	

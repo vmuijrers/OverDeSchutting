@@ -10,4 +10,5 @@ function scr_drop(_object_to_throw){
 	_object_to_throw.xSpd = look_dir * _charge_percentage * max_throw_power
 	_object_to_throw.ySpd = -1 + random(2)
 	_object_to_throw.zSpd =  1 + _charge_percentage * 8
+	scr_sound_character_play(player_name, "yeet");
 }

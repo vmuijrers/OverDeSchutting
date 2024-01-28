@@ -47,7 +47,7 @@ else
 
 
 	//Draw me
-	draw_sprite_ext(sprite_index, image_index, x, y, look_dir, 1, 0, c_white, 1);
+	draw_sprite_ext(sprite_index, image_index, x, y + offset, look_dir, 1, 0, c_white, 1);
 
 	//Draw my hands
 	if(current_pickup == noone)
@@ -56,6 +56,12 @@ else
 	}
 	else
 	{
+		if(is_charging){
+			offset = choose(-2,2)
+		}else{
+			offset = 0;	
+		}
+		
 		if(current_pickup.isBroom)
 		{
 			//draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
@@ -64,13 +70,13 @@ else
 			{
 				turnanim=-1
 			}
-			draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y,look_dir*turnanim,1,0,c_white,1)
+			draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y + offset,look_dir*turnanim,1,0,c_white,1)
 		}
 		else
 		{
-			draw_sprite_ext(sprite_hands_hold, image_index, x, y, look_dir, 1, 0, c_white, 1);
+			draw_sprite_ext(sprite_hands_hold, image_index, x, y+ offset, look_dir, 1, 0, c_white, 1);
 			if(current_pickup.object_index  != obj_animal){
-				draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30,look_dir,1,0,c_white,1)
+				draw_sprite_ext(current_pickup.sprite_picked_up,0,x,y-30+ offset,look_dir,1,0,c_white,1)
 			}
 		}
 	}
