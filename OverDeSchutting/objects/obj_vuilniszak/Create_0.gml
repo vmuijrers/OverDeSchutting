@@ -19,3 +19,6 @@ bouncecut = 6
 hp = 999999
 
 dmgplayer = true
+
+
+weightmult = .8

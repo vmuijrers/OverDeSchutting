@@ -2,13 +2,17 @@
 // You can write your code in this editor
 //Decreaes swing so you can swing again
 swing -= 1
-
+if(invunerable>0)
+{
+	invunerable-=1
+}
 if(stunned>0)
 {
 	if(current_pickup!=noone)
 	{
 		var held_obj = current_pickup
 		scr_drop(current_pickup);	
+		held_obj.xSpd = -2+random(4)
 		held_obj.ySpd = 1+random(2)
 		held_obj.zSpd = 1+random(1)
 		held_obj.y+=1

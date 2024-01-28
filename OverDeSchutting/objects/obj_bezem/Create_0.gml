@@ -12,3 +12,6 @@ sprite_picked_up = Tool_Bezem
 hitting_range=36
 
 isBroom=true
+
+
+weightmult = .8

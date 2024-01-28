@@ -18,3 +18,6 @@ bouncyness = 0.8
 bouncecut = 2
 
 dmgplayer = false
+
+
+weightmult = 1.6

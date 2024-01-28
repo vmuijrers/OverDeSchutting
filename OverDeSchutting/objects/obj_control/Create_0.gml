@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.num_players = 3;
-room_width = 1920;
-room_height = 360;
+room_width = 2400;
+room_height = 600;
 
-global.screen_width = 1920;
-global.screen_height = 1080;
+global.screen_width = 800;
+global.screen_height = 600;
 global.schutting_hoogte = 50;
 global.screen_part = room_width / global.num_players; //size of a single screen in game units
 global.schutting_border = 285; //hieronder kun je naar de buren lopen
