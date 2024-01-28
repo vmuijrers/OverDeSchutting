@@ -17,6 +17,10 @@ if(state != WEAPON_STATE.PICKUP)
 	{
 		src_draw_sprite(shadow_sprite,0,x,y-global.schutting_hoogte)
 	}
+	
+	var addHeight =0;
+	
+	
 	sprite_to_draw=sprite_grond
 	if(z==0 && zSpd == 0 && (xSpd+ySpd)==0)
 	{
@@ -42,7 +46,7 @@ if(state != WEAPON_STATE.PICKUP)
 		}
 	}
 
-
+	
 	src_draw_sprite_ext(sprite_to_draw,image_index,x,y-z,image_xscale,image_yscale,0,c_white,1)
 }
 //Otherwise the player handles the drawing!!

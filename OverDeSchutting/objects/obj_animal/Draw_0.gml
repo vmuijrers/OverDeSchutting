@@ -4,7 +4,7 @@ if(state == WEAPON_STATE.PICKUP)
 {
 	sprite_index = asset_get_index(sprites[state_animal] + string(level))
 	look_dir = target_x > x ? 1 : -1;
-	src_draw_sprite_ext(sprite_index, 0, x,y - 32-z,look_dir, 1, 0, c_white, 1);
+	src_draw_sprite_ext(sprite_index, 0, x,y -z,look_dir, 1, 0, c_white, 1);
 }else{
 	
 	sprite_index = asset_get_index(sprites[state_animal] + string(level))

@@ -143,6 +143,10 @@ else
 	}
 	
 }
+
+
+if (y<185) y=185;
+if (y>438) y=438
 	
 scr_periodic_bounderies();
 

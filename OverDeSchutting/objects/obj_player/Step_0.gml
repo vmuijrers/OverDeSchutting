@@ -56,7 +56,7 @@ else
 		}
 	
 		//do action
-		if(gamepad_button_check_pressed(pad_num, gp_face3) && swing<=0)
+		if(gamepad_button_check_pressed(pad_num, gp_face2) && swing<=0)
 		{
 			scr_handle_action_button();		
 			swing = 15
