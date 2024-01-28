@@ -42,4 +42,5 @@ function scr_load_player_sprites(){
 		break;
 	}
 	 global.players_loaded +=1;
+	 sprite_index = sprite_idle
 }
