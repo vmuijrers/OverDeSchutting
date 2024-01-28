@@ -7,7 +7,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+audio_play_sound(choose(snd_splat_1, snd_splat_2, snd_splat_3), 10, false);
 var number_of_gibs = 0 + floor(random(2))
 if(number_of_gibs>0)
 {

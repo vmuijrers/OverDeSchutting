@@ -41,62 +41,13 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 				target_y = clamp(target_y, global.min_y, room_height)
 				level = 0;
 				
-				
-				//Options;
-				//1=One big turd
-				//2=Projectile turd
-				//3=Explosive diarrea
-				var option = choose(1,1,1,1,1,1,1,2,2,3)
-				switch(option)
-				{
-					case 1: // One big turd
-						var _turd = instance_create_layer(x-15*look_dir,y+3,"Instances", obj_big_turd)
-							_turd.depth = depth+3
-							_turd.xSpd =0
-							_turd.ySpd = 0
-							_turd.zSpd =  0
-				
-							//Create some gibs to show we're pooping
-							var number_of_gibs = 4+ floor(random(7))
-							repeat(number_of_gibs)
-							{
-								var new_spawn = instance_create_depth(x-15*look_dir,y+4,depth,obj_poep_gib)
-								new_spawn.xSpd=-2+random(4)
-								new_spawn.ySpd=-2+random(4)
-								new_spawn.zSpd=1+random(1)	
-							}					
-					break;
-					case 2: //Projectile turd
-						var _turd = instance_create_layer(x-15*look_dir,y+3,"Instances", obj_big_turd)
-							_turd.depth = depth+3
-							_turd.xSpd =-4+random(8)
-							_turd.ySpd = 2+random(6)
-							_turd.zSpd =  4+random(6)
-				
-							//Create some gibs to show we're pooping
-							var number_of_gibs = 7+ floor(random(10))
-							repeat(number_of_gibs)
-							{
-								var new_spawn = instance_create_depth(x-15*look_dir,y+4,depth,obj_poep_gib)
-								new_spawn.xSpd=_turd.xSpd -1 +random(2)
-								new_spawn.ySpd=_turd.ySpd  -1 +random(2)
-								new_spawn.zSpd=_turd.zSpd -1 + random(3)
-
-							}						
-					break;
-					case 3: //Really big diarrhea
-							var number_of_gibs = 62+ floor(random(47))
-							repeat(number_of_gibs)
-							{
-								var new_spawn = instance_create_depth(x-15*look_dir,y+3,depth,obj_poep_gib)
-								new_spawn.z=11
-								new_spawn.xSpd= (-1*look_dir)*(2+random(5))
-								new_spawn.ySpd=-4+random(8)
-								new_spawn.zSpd=2+random(3)	
-							}					
-					break;
+				audio_play_sound(choose(snd_pigs_1, snd_pigs_2, snd_pigs_3, snd_pigs_4), 10, false);
+				var _turd = instance_create_layer(x,y,"Instances", obj_big_turd)
+				if(random(1.0) > 0.5){
+					_turd.xSpd = -look_dir * 1
+					_turd.ySpd = -1 + random(2)
+					_turd.zSpd =  1 + 2
 				}
-
 				state_animal = 	ANIMAL_STATE.MOVE
 			}
 			//TODO: reset target when thrown
@@ -109,7 +60,7 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 		 //if(state == WEAPON_STATE.IDLE){
 				if(target != noone /* && point_distance(x,y, target.x, target.y) <= stopping_distance * 1.5 */)
 				{
-					//target.x = 100000;
+					audio_play_sound(choose(snd_pigs_1, snd_pigs_2, snd_pigs_3, snd_pigs_4), 10, false);
 					with(target){
 						instance_destroy()
 					}

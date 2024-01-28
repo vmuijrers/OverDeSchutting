@@ -9,7 +9,7 @@ scr_clean(x,y,hitting_range)
 
 
 //Veeg object layer
-
+audio_play_sound(choose(Broom_loop), 10, false);
 _objs_list = ds_list_create();
 ds_list_copy(_objs_list, scr_find_objects_of_type_in_range (x,y, obj_physic_object, hitting_range));
 show_debug_message(ds_list_size(_objs_list));

@@ -21,10 +21,13 @@ pickup_max_charge_time = 30;
 hor=0
 ver=0
 
-
+offset = 0;	
 scr_load_player_sprites()
 image_index=0;
 //sprite_index = sprite_idle
+
+
+
 
 swing = 0;
 

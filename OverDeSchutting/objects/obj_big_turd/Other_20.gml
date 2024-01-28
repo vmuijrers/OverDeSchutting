@@ -4,8 +4,7 @@
 
 // Inherit the parent event
 event_inherited();
-event_inherited();
-
+audio_play_sound(choose(snd_splat_1, snd_splat_2, snd_splat_3), 10, false);
 var poepdir = random(360)
 var poep_multiplier = 3+floor(random(2))
 repeat(poep_multiplier)

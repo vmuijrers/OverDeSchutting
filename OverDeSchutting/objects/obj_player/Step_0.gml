@@ -31,6 +31,11 @@ else
 		scr_calc_borders()
 		scr_move(hor, ver);
 	
+		if(gamepad_button_check_pressed(pad_num, gp_face4))
+		{
+		    audio_play_sound(scr_sound_character_play(player_name, "insult"), 10, false); 	
+		}
+	
 		//check for pickups
 		if(gamepad_button_check_pressed(pad_num, gp_face1))
 		{
@@ -51,7 +56,7 @@ else
 		}
 	
 		//do action
-		if(gamepad_button_check_pressed(pad_num, gp_face2) && swing<=0)
+		if(gamepad_button_check_pressed(pad_num, gp_face3) && swing<=0)
 		{
 			scr_handle_action_button();		
 			swing = 15

@@ -40,7 +40,7 @@ enum ANIMAL_STATE
 }
 
 
-weightmult = .6
+
 
 
 
