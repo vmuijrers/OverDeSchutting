@@ -65,7 +65,7 @@ if(state != WEAPON_STATE.FLYING && z == 0)
 		 //if(state == WEAPON_STATE.IDLE){
 				if(target != noone /* && point_distance(x,y, target.x, target.y) <= stopping_distance * 1.5 */)
 				{
-					audio_play_sound(choose(snd_pigs_1, snd_pigs_2, snd_pigs_3, snd_pigs_4), 10, false);
+					
 					with(target){
 						instance_destroy()
 					}

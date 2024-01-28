@@ -43,5 +43,5 @@ for (var i = 0; i < 1; i++;)
 //spawn a truck
 alarm[0] = random_range(room_speed * 30, room_speed *60);
 
-end_game_timer = 300;
+end_game_timer = room_speed * 420;
 alarm[1] = end_game_timer;

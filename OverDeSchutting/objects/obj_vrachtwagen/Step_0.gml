@@ -12,7 +12,9 @@ if( point_distance(x,0,x_target,0) < 16 && holding != noone)
 	spawn_obj.ySpd = -2-random(6)
 	spawn_obj.zSpd = 2+random(4)
 	holding = noone
-	
+	//audio_play_sound(sparkle, 10, false);
+
+	audio_play_sound_at(sparkle, x, y, 0, 100, 2400, 1, false, 20);
 	alarm[0]=15
 }
 
