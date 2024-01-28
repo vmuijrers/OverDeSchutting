@@ -9,7 +9,7 @@ var str = "$ "  + string(myScore)
 draw_set_color(c_white)
 draw_set_font(font_big_value)
 draw_set_halign(fa_center)
-draw_text(x+400,495,str)
+draw_text(x+400,499,str)
 
 
 //Street name above
@@ -26,8 +26,8 @@ time_remaining = max(0,ceil(global.endtime-(current_time/1000)))
 //Seconds remaining
 draw_set_halign(fa_right)
 draw_set_color(c_red)
-draw_set_font(font_big_value)
-draw_text(x+780,28,time_remaining)
+draw_set_font(font_half_time_value)
+draw_text(x+780,36,time_remaining)
 
 
 draw_set_color(c_white)

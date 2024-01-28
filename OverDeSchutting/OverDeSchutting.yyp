@@ -88,6 +88,7 @@
     {"id":{"name":"obj_vuilniszak","path":"objects/obj_vuilniszak/obj_vuilniszak.yy",},},
     {"id":{"name":"Beeld_Josselin_Fly_Down","path":"sprites/Beeld_Josselin_Fly_Down/Beeld_Josselin_Fly_Down.yy",},},
     {"id":{"name":"GoldenGnome_Fly_Down","path":"sprites/GoldenGnome_Fly_Down/GoldenGnome_Fly_Down.yy",},},
+    {"id":{"name":"font_half_time_value","path":"fonts/font_half_time_value/font_half_time_value.yy",},},
     {"id":{"name":"obj_beeld_joost","path":"objects/obj_beeld_joost/obj_beeld_joost.yy",},},
     {"id":{"name":"snd_jocelyn_barf_2","path":"sounds/snd_jocelyn_barf_2/snd_jocelyn_barf_2.yy",},},
     {"id":{"name":"DeMonaLisa_Fly_Up","path":"sprites/DeMonaLisa_Fly_Up/DeMonaLisa_Fly_Up.yy",},},

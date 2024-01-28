@@ -36,6 +36,7 @@
     {"name":"obj_vuilniszak","order":6,"path":"objects/obj_vuilniszak/obj_vuilniszak.yy",},
     {"name":"Beeld_Josselin_Fly_Down","order":1,"path":"sprites/Beeld_Josselin_Fly_Down/Beeld_Josselin_Fly_Down.yy",},
     {"name":"GoldenGnome_Fly_Down","order":1,"path":"sprites/GoldenGnome_Fly_Down/GoldenGnome_Fly_Down.yy",},
+    {"name":"font_half_time_value","order":2,"path":"fonts/font_half_time_value/font_half_time_value.yy",},
     {"name":"obj_beeld_joost","order":5,"path":"objects/obj_beeld_joost/obj_beeld_joost.yy",},
     {"name":"snd_jocelyn_barf_2","order":1,"path":"sounds/snd_jocelyn_barf_2/snd_jocelyn_barf_2.yy",},
     {"name":"DeMonaLisa_Fly_Up","order":2,"path":"sprites/DeMonaLisa_Fly_Up/DeMonaLisa_Fly_Up.yy",},
