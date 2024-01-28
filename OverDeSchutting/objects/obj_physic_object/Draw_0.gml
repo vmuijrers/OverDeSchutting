@@ -8,10 +8,15 @@
 // You can write your code in this editor
 
 if(state != WEAPON_STATE.PICKUP)
-
 {
-	src_draw_sprite(shadow_sprite,0,x,y)
-
+	if(scr_is_in(x,y))
+	{
+		src_draw_sprite(shadow_sprite,0,x,y)
+	}
+	else
+	{
+		src_draw_sprite(shadow_sprite,0,x,y-global.schutting_hoogte)
+	}
 	sprite_to_draw=sprite_grond
 	if(z==0 && zSpd == 0 && (xSpd+ySpd)==0)
 	{

@@ -136,7 +136,6 @@
     {"name":"snd_jos_hit_3","order":6,"path":"sounds/snd_jos_hit_3/snd_jos_hit_3.yy",},
     {"name":"Beeld_Jos_Fly_Up","order":1,"path":"sprites/Beeld_Jos_Fly_Up/Beeld_Jos_Fly_Up.yy",},
     {"name":"snd_jocelyn_hit_1","order":5,"path":"sounds/snd_jocelyn_hit_1/snd_jocelyn_hit_1.yy",},
-    {"name":"Beeld_Joost_Ground102","order":3,"path":"sprites/Beeld_Joost_Ground102/Beeld_Joost_Ground102.yy",},
     {"name":"snd_joost_yeet_2","order":11,"path":"sounds/snd_joost_yeet_2/snd_joost_yeet_2.yy",},
     {"name":"Vrachtauto_Rijd_Voorgrond","order":1,"path":"sprites/Vrachtauto_Rijd_Voorgrond/Vrachtauto_Rijd_Voorgrond.yy",},
     {"name":"obj_beeld_josselin","order":7,"path":"objects/obj_beeld_josselin/obj_beeld_josselin.yy",},

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Beeld_Joost_Ground102",
-    "path": "sprites/Beeld_Joost_Ground102/Beeld_Joost_Ground102.yy",
+    "name": "Beeld_Joost_Ground",
+    "path": "sprites/Beeld_Joost_Ground/Beeld_Joost_Ground.yy",
   },
   "spriteMaskId": {
     "name": "spr_collisionmask",
