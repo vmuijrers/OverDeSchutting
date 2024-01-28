@@ -19,7 +19,7 @@ function scr_move(_xdir, _ydir){
 	newY += _ydir * movespeed;
 	newY = clamp(newY, minY, maxY);
 	
-	if(!place_meeting(newX,newY, obj_blocker))
+	if(scr_is_in(newX,newY))
 	{
 		x = newX;
 		y = newY;
