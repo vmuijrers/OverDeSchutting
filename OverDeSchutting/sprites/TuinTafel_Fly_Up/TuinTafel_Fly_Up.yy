@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Tuintafel",
-    "path": "folders/Sprites/Objects/Tuinspullen/Tuintafel.yy",
+    "path": "folders/Sprites/Objects/Goeien Handle/Tuintafel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

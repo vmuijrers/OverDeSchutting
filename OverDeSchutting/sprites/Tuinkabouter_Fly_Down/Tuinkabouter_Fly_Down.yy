@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Tuinkabouter",
-    "path": "folders/Sprites/Objects/Tuinspullen/Tuinkabouter.yy",
+    "path": "folders/Sprites/Objects/Goeien Handle/Tuinkabouter.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

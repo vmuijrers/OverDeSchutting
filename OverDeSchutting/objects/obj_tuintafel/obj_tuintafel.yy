@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "Goeien Handel",
+    "path": "folders/Objects/Objects/Goeien Handel.yy",
   },
   "parentObjectId": {
     "name": "obj_pickup_parent",

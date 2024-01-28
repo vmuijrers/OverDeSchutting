@@ -26,7 +26,7 @@
   "origin": 9,
   "parent": {
     "name": "Tuinstoel",
-    "path": "folders/Sprites/Objects/Tuinspullen/Tuinstoel.yy",
+    "path": "folders/Sprites/Objects/Goeien Handle/Tuinstoel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects/Objects.yy",
+    "name": "Rommel",
+    "path": "folders/Objects/Objects/Rommel.yy",
   },
   "parentObjectId": {
     "name": "obj_gib",
