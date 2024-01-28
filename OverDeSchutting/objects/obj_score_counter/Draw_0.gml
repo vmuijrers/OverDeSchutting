@@ -30,6 +30,11 @@ draw_set_font(font_half_time_value)
 draw_text(x+780,36,time_remaining)
 
 
+if(time_remaining>240)
+{
+	draw_sprite(TUTORIAL_OVERLAY_VOORBOB,0,x,y)
+}
+
 draw_set_color(c_white)
 if(time_remaining == 0)
 {

@@ -289,6 +289,7 @@
     {"id":{"name":"snd_jos_hit_3","path":"sounds/snd_jos_hit_3/snd_jos_hit_3.yy",},},
     {"id":{"name":"scr_check_winner","path":"scripts/scr_check_winner/scr_check_winner.yy",},},
     {"id":{"name":"Pig_Fat_Eat_2","path":"sprites/Pig_Fat_Eat_2/Pig_Fat_Eat_2.yy",},},
+    {"id":{"name":"TUTORIAL_OVERLAY_VOORBOB","path":"sprites/TUTORIAL_OVERLAY_VOORBOB/TUTORIAL_OVERLAY_VOORBOB.yy",},},
     {"id":{"name":"Beeld_Jos_Fly_Down","path":"sprites/Beeld_Jos_Fly_Down/Beeld_Jos_Fly_Down.yy",},},
     {"id":{"name":"Beeld_Jos_Fly_Up","path":"sprites/Beeld_Jos_Fly_Up/Beeld_Jos_Fly_Up.yy",},},
     {"id":{"name":"sparkle","path":"sounds/sparkle/sparkle.yy",},},
