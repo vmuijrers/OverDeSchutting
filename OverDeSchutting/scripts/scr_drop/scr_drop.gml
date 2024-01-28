@@ -9,6 +9,6 @@ function scr_drop(_object_to_throw){
 	show_debug_message(_charge_percentage)
 	_object_to_throw.xSpd = (look_dir * _charge_percentage * max_throw_power) *(_object_to_throw.weightmult)
 	_object_to_throw.ySpd = -1 + random(2)
-	_object_to_throw.zSpd =  2 + _charge_percentage * 7 *(_object_to_throw.weightmult)
-	_object_to_throw.y-=4
+	_object_to_throw.zSpd =  2 + _charge_percentage * 6 *(.15+(1+2*_object_to_throw.weightmult)/3)
+	_object_to_throw.state=WEAPON_STATE.FLYING
 }

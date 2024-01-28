@@ -68,6 +68,8 @@ else
 		{
 			current_pickup.x = x;
 			current_pickup.y = y;
+			current_pickup.z = 40
+			current_pickup.state = WEAPON_STATE.PICKUP
 			current_pickup.look_dir = look_dir;
 		
 			//charge the weapon for throwing

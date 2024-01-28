@@ -6,7 +6,8 @@ room_height = 600;
 
 global.screen_width = 800;
 global.screen_height = 600;
-global.schutting_hoogte = 50;
+global.schutting_hoogte = 28;
+
 global.screen_part = room_width / global.num_players; //size of a single screen in game units
 global.schutting_border = 285; //hieronder kun je naar de buren lopen
 global.min_y = 70;

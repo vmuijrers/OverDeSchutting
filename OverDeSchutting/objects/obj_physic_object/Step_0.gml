@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(state == WEAPON_STATE.PICKUP)
+{
+	exit	
+}
+
+	
+
 
 //Apply x,y friction
 mspd = point_distance(0,0,xSpd,ySpd)
@@ -24,11 +31,22 @@ if(z>0)
 {
 	zSpd -= grav
 }
-if(z+zSpd<=69)
+if(z<=global.schutting_hoogte)
 {
 	if(scr_is_in(x,y))
 	{
 		z += zSpd
+	}
+	else
+	{
+		if zSpd>0
+		{
+			z+=zSpd
+		}
+		else
+		{
+			zSpd=0
+		}
 	}
 }
 else
@@ -91,7 +109,7 @@ ySpd = lengthdir_y(mspd,mdir)
 //Do x,y movement
 scr_calc_borders()
 
-if(z>69)
+if(z>global.schutting_hoogte)
 {
 	x+=xSpd
 	y+=ySpd*0.5
@@ -104,7 +122,15 @@ else
 	}
 	else
 	{
-		xSpd*= -1
+		if(scr_is_in(x-xSpd,y))
+		{
+			xSpd*= -1
+		}
+		else
+		{
+			x+=xSpd
+		}
+		
 	}
 	
 	if(scr_is_in(x,y+ySpd))
