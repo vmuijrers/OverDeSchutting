@@ -20,3 +20,4 @@ bouncecut = 8
 dmgplayer = false
 
 weightmult = .85
+

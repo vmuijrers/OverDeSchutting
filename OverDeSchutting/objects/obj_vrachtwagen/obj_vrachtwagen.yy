@@ -1,20 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_beeld_josselin",
+  "name": "obj_vrachtwagen",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":20,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Goeien Handel",
-    "path": "folders/Objects/Objects/Goeien Handel.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/NPCs.yy",
   },
   "parentObjectId": {
-    "name": "obj_pickup_parent",
-    "path": "objects/obj_pickup_parent/obj_pickup_parent.yy",
+    "name": "obj_z",
+    "path": "objects/obj_z/obj_z.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,12 +34,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Beeld_Josselin_Ground",
-    "path": "sprites/Beeld_Josselin_Ground/Beeld_Josselin_Ground.yy",
+    "name": "Vrachtauto_Rijd",
+    "path": "sprites/Vrachtauto_Rijd/Vrachtauto_Rijd.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_collisionmask",
-    "path": "sprites/spr_collisionmask/spr_collisionmask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

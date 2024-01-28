@@ -26,7 +26,7 @@
   "origin": 7,
   "parent": {
     "name": "Pig",
-    "path": "folders/Sprites/Animals/Pig.yy",
+    "path": "folders/Sprites/NPCs/Pig.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
