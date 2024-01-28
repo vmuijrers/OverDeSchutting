@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_background",
-  "bbox_bottom": 359,
+  "name": "Level_Ondergrond_B_800x600",
+  "bbox_bottom": 599,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 799,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54e30648-d348-4c70-9dd7-7426d2cb979a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84b10bbb-2460-4452-bcff-172ca5eb3c71",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 360,
+  "height": 600,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"23308a01-e0b7-4cb0-96fe-7c30a8292e22","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2a3761a0-94ad-49d6-9bcc-241d79b48ad7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_background",
+    "name": "Level_Ondergrond_B_800x600",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54e30648-d348-4c70-9dd7-7426d2cb979a","path":"sprites/spr_background/spr_background.yy",},},},"Disabled":false,"id":"f3c14ecc-9d1f-41b4-8f91-ff77ddee3eaa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84b10bbb-2460-4452-bcff-172ca5eb3c71","path":"sprites/Level_Ondergrond_B_800x600/Level_Ondergrond_B_800x600.yy",},},},"Disabled":false,"id":"009c90ba-b7b2-4c72-9266-7b0f3f779c13","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 800,
 }

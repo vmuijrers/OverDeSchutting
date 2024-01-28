@@ -1,17 +1,21 @@
 {
   "FolderOrderSettings": [
     {"name":"Music","order":1,"path":"folders/Sounds/Music.yy",},
+    {"name":"Backgrounds","order":2,"path":"folders/Sprites/Backgrounds.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"schuttingmuziek_layer_2","order":2,"path":"sounds/schuttingmuziek_layer_2/schuttingmuziek_layer_2.yy",},
     {"name":"Joost_Stunned","order":1,"path":"sprites/Joost_Stunned/Joost_Stunned.yy",},
     {"name":"Jos_Stunned","order":1,"path":"sprites/Jos_Stunned/Jos_Stunned.yy",},
     {"name":"Josselin_Stunned","order":1,"path":"sprites/Josselin_Stunned/Josselin_Stunned.yy",},
+    {"name":"Level_Ondergrond_A_800x600","order":2,"path":"sprites/Level_Ondergrond_A_800x600/Level_Ondergrond_A_800x600.yy",},
+    {"name":"Level_Ondergrond_B_800x600","order":3,"path":"sprites/Level_Ondergrond_B_800x600/Level_Ondergrond_B_800x600.yy",},
     {"name":"schuttingmuziek_layer_1__menu_","order":1,"path":"sounds/schuttingmuziek_layer_1__menu_/schuttingmuziek_layer_1__menu_.yy",},
     {"name":"Joske_Stunned","order":1,"path":"sprites/Joske_Stunned/Joske_Stunned.yy",},
     {"name":"obj_music","order":1,"path":"objects/obj_music/obj_music.yy",},
     {"name":"schuttingmuziek_layer_4","order":4,"path":"sounds/schuttingmuziek_layer_4/schuttingmuziek_layer_4.yy",},
     {"name":"spr_collisionmask","order":1,"path":"sprites/spr_collisionmask/spr_collisionmask.yy",},
     {"name":"schuttingmuziek_layer_3","order":3,"path":"sounds/schuttingmuziek_layer_3/schuttingmuziek_layer_3.yy",},
+    {"name":"Level_Ondergrond_C_800x600","order":1,"path":"sprites/Level_Ondergrond_C_800x600/Level_Ondergrond_C_800x600.yy",},
   ],
 }
