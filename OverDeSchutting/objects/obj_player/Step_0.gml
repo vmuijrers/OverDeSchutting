@@ -33,7 +33,8 @@ else
 	
 		if(gamepad_button_check_pressed(pad_num, gp_face4))
 		{
-		    audio_play_sound(scr_sound_character_play(player_name, "insult"), 10, false); 	
+		    //audio_play_sound(scr_sound_character_play(player_name, "insult"), 10, false); 
+			audio_play_sound_at(scr_sound_character_play(player_name, "insult"), x, y, 0, 100, 2400, 1, false, 20);
 		}
 	
 		//check for pickups
