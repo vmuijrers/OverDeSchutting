@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "ambience_base_layer.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.21,
 }

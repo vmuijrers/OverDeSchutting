@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "splat__2_",
+  "name": "snd_splat_1",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "splat__2_.wav",
+  "soundFile": "snd_splat_1.wav",
   "type": 0,
   "volume": 1.0,
 }
