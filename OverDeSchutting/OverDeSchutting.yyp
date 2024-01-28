@@ -128,7 +128,6 @@
     {"id":{"name":"Jos_Run","path":"sprites/Jos_Run/Jos_Run.yy",},},
     {"id":{"name":"spr_niks","path":"sprites/spr_niks/spr_niks.yy",},},
     {"id":{"name":"Tool_Bezem_Fly_Up","path":"sprites/Tool_Bezem_Fly_Up/Tool_Bezem_Fly_Up.yy",},},
-    {"id":{"name":"obj_boundtest","path":"objects/obj_boundtest/obj_boundtest.yy",},},
     {"id":{"name":"TuinTafel_Fly_Up","path":"sprites/TuinTafel_Fly_Up/TuinTafel_Fly_Up.yy",},},
     {"id":{"name":"Joske_Stunned","path":"sprites/Joske_Stunned/Joske_Stunned.yy",},},
     {"id":{"name":"Tuinstoel_Ground","path":"sprites/Tuinstoel_Ground/Tuinstoel_Ground.yy",},},
