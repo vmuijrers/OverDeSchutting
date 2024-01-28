@@ -14,6 +14,7 @@
     {"name":"Robot","order":15,"path":"folders/Sounds/Robot.yy",},
     {"name":"Backgrounds","order":2,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Vrachtwagen","order":1,"path":"folders/Sprites/NPCs/Vrachtwagen.yy",},
+    {"name":"Vuilniswagen","order":2,"path":"folders/Sprites/NPCs/Vuilniswagen.yy",},
     {"name":"BBQ","order":1,"path":"folders/Sprites/Objects/Goeien Handle/BBQ.yy",},
     {"name":"Beeld_Joost","order":4,"path":"folders/Sprites/Objects/Goeien Handle/Beeld_Joost.yy",},
     {"name":"Beeld_Jos","order":5,"path":"folders/Sprites/Objects/Goeien Handle/Beeld_Jos.yy",},
@@ -26,7 +27,6 @@
     {"name":"Deadmau5","order":6,"path":"folders/Sprites/Objects/Vuilnis/Deadmau5.yy",},
     {"name":"Turd","order":4,"path":"folders/Sprites/Objects/Vuilnis/Turd.yy",},
     {"name":"Vuilniszak","order":5,"path":"folders/Sprites/Objects/Vuilnis/Vuilniszak.yy",},
-    {"name":"Vuilniswagen","order":2,"path":"folders/Sprites/NPCs/Vuilniswagen.yy",},
     {"name":"J-05","order":1,"path":"folders/Sprites/Players/J-05.yy",},
   ],
   "ResourceOrderSettings": [
