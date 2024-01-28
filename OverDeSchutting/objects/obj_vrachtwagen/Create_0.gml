@@ -18,7 +18,7 @@ else
 }
 
 
-if(random(1)>0.95)
+if(random(1)>0.90)
 {
 	if(!instance_exists(obj_demonalisa))
 	{

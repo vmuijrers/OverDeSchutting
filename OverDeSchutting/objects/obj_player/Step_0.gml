@@ -53,7 +53,10 @@ else
 		if(gamepad_button_check_released(pad_num, gp_face1) && is_charging)
 		{
 			is_charging = false;
-			scr_drop(current_pickup);		
+			if(current_pickup!= noone)
+			{
+				scr_drop(current_pickup);		
+			}
 		}
 	
 		//do action

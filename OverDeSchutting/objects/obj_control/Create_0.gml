@@ -37,8 +37,8 @@ enum WEAPON_STATE {
 }
 
 //spawn a truck
-alarm[0] = random_range(room_speed * 30, room_speed *60);
+alarm[0] = random_range(room_speed * 15, room_speed *30);
 
 //set end game timer
-end_game_timer = room_speed * 420;
-alarm[1] = end_game_timer;
+//end_game_timer = roo//m_speed * 420;
+//alarm[1] = end_game_timer;
